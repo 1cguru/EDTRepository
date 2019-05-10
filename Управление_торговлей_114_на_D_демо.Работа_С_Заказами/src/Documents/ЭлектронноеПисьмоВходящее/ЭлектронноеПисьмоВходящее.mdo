@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="d4b42e6d-10fc-47d9-933a-54e1fdbfe4f1">
+  <producedTypes>
+    <objectType typeId="5d28f948-703a-4d66-b1e1-5355ecb8a4cf" valueTypeId="0b4e1da2-7505-401f-a70a-684f29f41191"/>
+    <refType typeId="ca6356f3-9c25-4842-a13e-e5357525f9fe" valueTypeId="00d91a63-cb69-47bf-8557-b73d3243dec8"/>
+    <selectionType typeId="e116986c-a045-4565-80af-dcb8c625873f" valueTypeId="e904712e-00db-4326-9f39-64d04ac88860"/>
+    <listType typeId="97c14b3f-ca87-4432-a4d9-4cc7462933ac" valueTypeId="ae9e9600-a251-4c67-aba3-86c548301f23"/>
+    <managerType typeId="287f9f21-2d87-4b61-8145-310c13e0ae18" valueTypeId="7a8c7395-28b0-4be2-bb7f-7ab7cbeb4cb2"/>
+  </producedTypes>
+  <name>ЭлектронноеПисьмоВходящее</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension"/>
+  <useStandardCommands>true</useStandardCommands>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+</mdclass:Document>

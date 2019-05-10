@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="24527418-034c-40f8-979a-8245a59d0e60">
+  <producedTypes>
+    <containerType typeId="d670f358-b6af-4c86-a713-2beefda65919" valueTypeId="89eac9ad-36d8-4e79-bff3-6e38c5ace4c7"/>
+  </producedTypes>
+  <name>ВладелецШаблонаСообщения</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DefinedTypeExtension"/>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>10</length>
+    </stringQualifiers>
+  </type>
+</mdclass:DefinedType>

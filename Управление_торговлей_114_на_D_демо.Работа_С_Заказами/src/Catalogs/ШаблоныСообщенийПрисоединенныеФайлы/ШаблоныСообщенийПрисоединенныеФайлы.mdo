@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="39df6654-77fe-43c4-84e2-3ec467071ac0">
+  <producedTypes>
+    <objectType typeId="830a0673-567f-4ab7-89a8-d3373b6586ae" valueTypeId="daa46f10-5a4e-49ab-aa01-89dc6906aa12"/>
+    <refType typeId="9934bd17-ec47-4802-a5d1-186eddfc6d9f" valueTypeId="351c2472-0791-4af8-9fce-6528b0ef0f47"/>
+    <selectionType typeId="06abe620-9c70-430c-abe0-c3f531bd89ed" valueTypeId="16f1fdd7-146b-40b6-bbcd-715e54e58c9c"/>
+    <listType typeId="0342a27b-100b-48bc-94d3-7e635ee2014d" valueTypeId="79d07c76-9fa9-49af-9cd6-8801efaf7d11"/>
+    <managerType typeId="a53be6eb-74a8-476f-8b19-68708389b093" valueTypeId="a540ea5d-e076-4257-938f-dab772fbe936"/>
+  </producedTypes>
+  <name>ШаблоныСообщенийПрисоединенныеФайлы</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+  <useStandardCommands>true</useStandardCommands>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

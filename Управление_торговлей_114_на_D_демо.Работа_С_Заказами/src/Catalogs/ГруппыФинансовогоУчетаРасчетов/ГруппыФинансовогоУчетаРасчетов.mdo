@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="7da2fa93-2eed-408c-a6d2-3982d2c5e805">
+  <producedTypes>
+    <objectType typeId="a05a3d59-7ea9-4051-b5e5-3a46d27a2f59" valueTypeId="9ed87ecf-24a5-4eb3-af96-7fd84dc7a400"/>
+    <refType typeId="d8503e2f-9a1e-46e1-bce2-97b0ab027eb5" valueTypeId="969cf6e9-069b-46c9-bcac-3381cacfe6ee"/>
+    <selectionType typeId="6f67d5d8-18f2-4c9e-9c58-abc3a8fd5c29" valueTypeId="3626d3e3-541d-495b-951a-a3c7e2fcec7b"/>
+    <listType typeId="b90ce7ff-5820-405c-81ab-afa3190d95f8" valueTypeId="fcd721bc-7390-43b6-a575-aac63d09d5fe"/>
+    <managerType typeId="c11d36b9-7cea-4ac4-ba83-35aedadddc5b" valueTypeId="b5ebbb72-6b88-4e13-a99a-c0f5d2f04625"/>
+  </producedTypes>
+  <name>ГруппыФинансовогоУчетаРасчетов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+  <useStandardCommands>true</useStandardCommands>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

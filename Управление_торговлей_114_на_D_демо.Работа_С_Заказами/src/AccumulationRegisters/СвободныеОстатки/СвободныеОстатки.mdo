@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="58a79479-1897-4736-9e8a-82ab49b6dbfd">
+  <producedTypes>
+    <selectionType typeId="6ebd1f51-4965-4703-81c9-aad5c591ee2d" valueTypeId="6077b7c4-d8b6-435f-81a3-488af95dc3a1"/>
+    <listType typeId="ee1603c3-5dcb-4a8a-a9b3-928355427249" valueTypeId="43376212-a348-49b4-b72b-bc663543f1b4"/>
+    <managerType typeId="ff31fe8f-c7da-4a84-a6d1-456cd9ac875a" valueTypeId="146c8f8b-467b-42df-9ddf-03fc12d50a01"/>
+    <recordSetType typeId="eda8edc4-1bdb-4712-a8ba-4f3cde20dbbc" valueTypeId="ac5a9752-dc5c-4db5-addd-73981bad80d7"/>
+    <recordKeyType typeId="c71cc2ef-d484-4f5e-9cae-10466edcbdd5" valueTypeId="423d1894-3be7-489a-8a5c-a3ecc321cbe0"/>
+    <recordType typeId="4964873d-6cd3-42ff-be83-813a2f4bbab6" valueTypeId="9c87316d-8b4a-430d-b89e-ee428c0d76ed"/>
+  </producedTypes>
+  <name>СвободныеОстатки</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:AccumulationRegisterExtension">
+    <registerType>Checked</registerType>
+    <recordSetModule>Extended</recordSetModule>
+  </extension>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="c2219149-9363-49c2-93fd-93e11b839da2">
+    <name>ВНаличии</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="442e344f-716b-49e6-af4a-37b44dc0a196">
+    <name>ВРезервеСоСклада</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="8adfba60-c45f-4361-b436-dda1b88945c4">
+    <name>ВРезервеПодЗаказ</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="0fee9e8f-312a-42e3-aa74-8f6da05db33b">
+    <name>Номенклатура</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="6da3e00b-16ea-49c9-97ea-cc9b7bc17af3">
+    <name>Характеристика</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>CatalogRef.ХарактеристикиНоменклатуры</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="397178c5-9750-45bd-b4a0-ef8345ee41d4">
+    <name>Склад</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>CatalogRef.Склады</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

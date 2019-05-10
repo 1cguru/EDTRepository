@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="336b5f66-b1a3-4f62-91a8-456d9107cd02">
+  <producedTypes>
+    <objectType typeId="ff12f5ee-ee48-4b60-9be8-e8f5cf7e855f" valueTypeId="57971f2d-f577-45db-bda1-7b7167cc13ac"/>
+    <refType typeId="3df91041-ba7e-4d20-81c0-f25785d9b813" valueTypeId="b444f4e8-6a21-4099-a428-de64cde1554b"/>
+    <selectionType typeId="770a1157-798b-45e2-ad76-e81eefac7ea3" valueTypeId="b12c502d-fa58-48c0-8b21-9a7bd598cd86"/>
+    <listType typeId="0786bd14-2c2c-4961-b2af-bb1478e26841" valueTypeId="f67fce4a-b079-4075-9a2d-6b4d7c273670"/>
+    <managerType typeId="9601c2d7-f6bb-46a8-bcb5-4d5f0f72477b" valueTypeId="72bf1ea8-7006-47aa-91c6-f6e09d4d361c"/>
+  </producedTypes>
+  <name>ЗапланированноеВзаимодействие</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension"/>
+  <useStandardCommands>true</useStandardCommands>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+</mdclass:Document>

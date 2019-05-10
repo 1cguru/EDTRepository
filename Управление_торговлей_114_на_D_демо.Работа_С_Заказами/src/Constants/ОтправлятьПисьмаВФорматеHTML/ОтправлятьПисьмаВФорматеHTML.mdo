@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="a05cb392-5eae-4b48-946d-e5cec09cdec4">
+  <producedTypes>
+    <managerType typeId="bb04a5fc-a4bb-44fa-919e-7263c49010fd" valueTypeId="528efc4e-471d-47a6-89ee-fb49d0480433"/>
+    <valueManagerType typeId="53434a26-2d43-4ac8-bad5-818b6f3c61d3" valueTypeId="8073ce38-509d-4b0f-a4ff-85193ae6aa87"/>
+  </producedTypes>
+  <name>ОтправлятьПисьмаВФорматеHTML</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <type>Checked</type>
+  </extension>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

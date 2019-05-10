@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="a06dd2ac-1dc9-4782-a116-b85ada281f1f">
+  <producedTypes>
+    <objectType typeId="3793ba89-473a-4915-b423-a05c9d1d728e" valueTypeId="5e2432c7-72cc-46eb-b081-2c7298fdd2ba"/>
+    <refType typeId="1ee47411-77c8-4b13-9b64-0eae16c5e9c0" valueTypeId="2caf41c1-6076-4b5e-9d97-cae812fe0c87"/>
+    <selectionType typeId="397203bc-05a2-4bd9-8fcf-ec123341aa3b" valueTypeId="aaa28bc0-a933-4b14-a4d9-af7a7487b0e8"/>
+    <listType typeId="de8183ec-b153-4e29-b527-10b86d79c208" valueTypeId="f0b99760-8040-46cf-a9f6-4a57903647d8"/>
+    <managerType typeId="8070d2a2-815d-4865-a46b-dacd7a72580b" valueTypeId="8e671e91-c409-4f24-8669-db7b867f11fd"/>
+  </producedTypes>
+  <name>СборкаТоваров</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension"/>
+  <useStandardCommands>true</useStandardCommands>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="c0ff45c1-69ba-4932-8cd1-986ae5b4bcbb">
+    <name>Номенклатура</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a6fdfaff-8ce8-4cf2-b583-051c799a14e9">
+    <name>Характеристика</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>CatalogRef.ХарактеристикиНоменклатуры</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Document>

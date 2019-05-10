@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="28b4d8a5-1dcb-42d8-9226-fb1b8c0e93ac">
+  <producedTypes>
+    <objectType typeId="4d5f7e6d-b79e-4bfb-ab1f-4dd941caef9e" valueTypeId="cdb6bde4-ead8-4940-955e-2e49049724c7"/>
+    <refType typeId="cffca768-5072-41cc-81c8-afc37aab1820" valueTypeId="5400aec2-1e23-44a4-ad67-32dfbd0894a3"/>
+    <selectionType typeId="eab4438d-27d0-428f-9770-a25158170463" valueTypeId="15533675-25a6-4f27-aba3-61bf9e97ee44"/>
+    <listType typeId="2d7ea663-bd52-4844-a09f-e89923192612" valueTypeId="b9f61ee7-f3c6-4f9f-ae38-a22186b7d6b8"/>
+    <managerType typeId="57721d3d-b87e-4d0c-b305-cc9a85adade4" valueTypeId="acff98d0-9b53-4dd8-9d12-b99062b061e2"/>
+  </producedTypes>
+  <name>СоглашенияОбИспользованииЭД</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+  <useStandardCommands>true</useStandardCommands>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

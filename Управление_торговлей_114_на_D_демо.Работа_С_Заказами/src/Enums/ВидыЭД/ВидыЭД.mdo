@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="e9a7f189-0092-420b-bbcc-9e936e625f33">
+  <producedTypes>
+    <refType typeId="b165f47e-4f22-4ba8-85ee-2890162f661f" valueTypeId="82832997-73a6-466d-aa62-549b6f4f52db"/>
+    <listType typeId="50490dca-2a73-416e-b2b0-e02ee942a9e6" valueTypeId="9ab0879d-6fd9-48d2-ad2c-39c831be99a9"/>
+    <managerType typeId="0ae7b128-53ef-46c7-b219-80f4a41a919a" valueTypeId="35d8deb1-cafa-49af-ad49-2d9c8dcacecd"/>
+  </producedTypes>
+  <name>ВидыЭД</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Enum>

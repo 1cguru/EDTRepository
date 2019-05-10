@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="412ee8e5-7c4f-4227-876d-cacbb25feb9a">
+  <producedTypes>
+    <containerType typeId="7b012184-f7aa-4551-be37-9c284e3112bd" valueTypeId="70f062e7-c7a9-4552-a6ea-59c1cb7ec039"/>
+  </producedTypes>
+  <name>КонтактВзаимодействия</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DefinedTypeExtension">
+    <type>Checked</type>
+  </extension>
+  <type/>
+</mdclass:DefinedType>

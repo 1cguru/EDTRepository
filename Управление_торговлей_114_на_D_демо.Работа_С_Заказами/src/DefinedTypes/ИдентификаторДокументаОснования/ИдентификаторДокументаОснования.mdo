@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="f97c7485-5cc2-4729-91cd-6b42c72ffcca">
+  <producedTypes>
+    <containerType typeId="1cd003e3-235a-4017-bc27-4492c4d96c06" valueTypeId="59a17348-e9e2-49f2-9820-8c8581e37a7c"/>
+  </producedTypes>
+  <name>ИдентификаторДокументаОснования</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DefinedTypeExtension"/>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>10</length>
+    </stringQualifiers>
+  </type>
+</mdclass:DefinedType>

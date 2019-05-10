@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="b42ad9e3-a1da-4c8c-b013-0848d2eecb05">
+  <producedTypes>
+    <refType typeId="bf60f3ad-1f38-4d55-a087-13f1df817f53" valueTypeId="33312799-dec3-449f-bc59-7b1ae67bcb5f"/>
+    <listType typeId="a99a4eb3-969e-479b-8c1b-3029a99a4ff9" valueTypeId="b215f3ef-cb0d-4d90-aa8e-a27ee915b600"/>
+    <managerType typeId="287de5c0-d516-4a8b-bb76-1f15a3ae6205" valueTypeId="8c582f2a-e3ba-43e3-8f94-c72f49a63eea"/>
+  </producedTypes>
+  <name>ВидыДополнительныхОтчетовИОбработок</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="609f492d-8e51-42cb-b214-9be5d33e4988">
+    <name>ШаблонСообщения</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

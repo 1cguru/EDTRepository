@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="732bdcc0-bc4a-48cb-9c73-c4645cbe64f6">
+  <producedTypes>
+    <objectType typeId="b079954c-25ed-45a7-9f3e-39312f0a4ce0" valueTypeId="5f7b6f18-6b7d-4b54-b82f-1ad6e13ed73f"/>
+    <refType typeId="deafa459-54df-451c-b046-b539904303c5" valueTypeId="62eb5816-215a-4ced-83aa-3e4e785a2388"/>
+    <selectionType typeId="ef197ac5-5577-4e48-82ac-17b7ff551a22" valueTypeId="d39422bf-cdea-4a1c-b2cd-2d9a0a51e470"/>
+    <listType typeId="f5196a7e-37e3-43ee-b32c-c7af58e721de" valueTypeId="96ba8440-844b-41d2-8f11-25201014f3af"/>
+    <managerType typeId="5e1feafc-aa6e-40b1-af34-061ebc3e9350" valueTypeId="04cf972c-ec8b-4436-819e-57f79805faa1"/>
+  </producedTypes>
+  <name>ТелефонныйЗвонок</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension"/>
+  <useStandardCommands>true</useStandardCommands>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+</mdclass:Document>

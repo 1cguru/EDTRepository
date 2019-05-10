@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="77fe8192-8f87-4b2c-84cc-1cb5aa5e2931">
+  <producedTypes>
+    <objectType typeId="97d28d65-afad-44ec-9639-5896ee08a7ab" valueTypeId="f5d2476d-5baa-4873-937a-e469f84d9940"/>
+    <refType typeId="11ebbb24-4c7f-40ad-b091-44fc76acb05f" valueTypeId="4d40192a-bbb6-4665-a405-a0a1afbcf91a"/>
+    <selectionType typeId="cd823552-0d38-470b-a540-3af423252640" valueTypeId="851e31be-1aa9-411b-9210-3cbbf9253b1a"/>
+    <listType typeId="ebba3a90-9dce-415e-980d-0bcb2e61988e" valueTypeId="068c0c24-cdfe-4089-80b6-05eebae7123b"/>
+    <managerType typeId="8e0f3942-cb21-4a56-95ff-3e38695fb069" valueTypeId="96d4cf51-273f-458f-9949-0dc395601588"/>
+  </producedTypes>
+  <name>КартыЛояльности</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+  <useStandardCommands>true</useStandardCommands>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="97849adc-42d2-44b0-86d8-bc48174e5b88">
+  <producedTypes>
+    <objectType typeId="f09cf33e-283b-4110-b6eb-23241489e62e" valueTypeId="cc187678-e667-4b49-bc2a-aa14bf548d0a"/>
+    <managerType typeId="12da76df-6ad4-4723-bf90-99815ef8c219" valueTypeId="767cf32a-1552-4f7b-878a-9815e5082d60"/>
+  </producedTypes>
+  <name>ОповещенияПриРаботеСЗаказами</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройка отправки оповещений при работе с заказами</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ОповещенияПриРаботеСЗаказами.Form.Форма</defaultForm>
+  <forms uuid="6ca7f7f8-2424-42cb-bcce-04121597392b">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

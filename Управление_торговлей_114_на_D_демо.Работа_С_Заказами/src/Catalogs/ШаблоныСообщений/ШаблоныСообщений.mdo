@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="7c50aac0-8e8b-42a6-83cd-53a78ca3b7f7">
+  <producedTypes>
+    <objectType typeId="3f9164a4-7600-40b0-828f-e64d7eecd95d" valueTypeId="9f273fe3-c41c-421c-8a81-768184729762"/>
+    <refType typeId="fa344f49-1656-4aec-b6e1-2cde218a7741" valueTypeId="31fe207d-d22a-4412-b6ce-16838503b8e9"/>
+    <selectionType typeId="66a8d46c-a045-4ae8-8c81-355e759b9707" valueTypeId="64def458-1236-4f63-b303-9b2843670842"/>
+    <listType typeId="087f4ce6-d1d9-448c-a789-cc71e04484ef" valueTypeId="f36d670f-3e6f-4c64-b364-40a56f4041f7"/>
+    <managerType typeId="a9b4b1ed-3636-45d5-856c-3d2dea0ac13f" valueTypeId="49c4e2ef-9282-4299-a6be-4511b745f1aa"/>
+  </producedTypes>
+  <name>ШаблоныСообщений</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <descriptionLength>Checked</descriptionLength>
+  </extension>
+  <useStandardCommands>true</useStandardCommands>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="a7f6937a-d845-4344-8e14-36c277251ce1">
+    <name>ВнешняяОбработка</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>CatalogRef.ДополнительныеОтчетыИОбработки</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="883bf5cb-3df6-4410-bfbb-e7a6a754cb6b">
+    <name>ТемаПисьма</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>1024</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b18e863d-05a0-4d68-8687-1737721cf3f9">
+    <name>ВладелецШаблона</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>DefinedType.ВладелецШаблонаСообщения</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9004b4bb-8913-4bdb-907b-13fea28060cc">
+    <name>ОтправлятьВТранслите</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="3f212960-1fa3-49d8-a1d1-656a13896968">
+    <name>Автор</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="cc5a82c1-3a40-4dd5-963d-5cb3cb9b00be">
+    <name>ПолноеИмяТипаПараметраВводаНаОсновании</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>250</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="325dff9f-7eae-4634-98bc-4d081cb35b33">
+    <name>УпаковатьВАрхив</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e242a10a-24ef-4faa-a018-ce5fcd31569e">
+    <name>ТранслитерироватьИменаФайлов</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="c8b50599-8d16-4816-86d7-330779a0a832">
+    <producedTypes>
+      <objectType typeId="5cd656d2-d77f-43df-953a-e9921f1b489e" valueTypeId="4187930c-3fec-4566-96bc-58a9602acaf9"/>
+      <rowType typeId="d8e7d6c1-3082-435d-a322-e96b9b1bb056" valueTypeId="d3fd2b69-3abb-4097-b9e6-d96741542eae"/>
+    </producedTypes>
+    <name>Параметры</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </tabularSections>
+  <forms uuid="bfcdd739-fa5f-4577-85bb-5e0d8f525e72">
+    <name>ФормаЭлемента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:Catalog>

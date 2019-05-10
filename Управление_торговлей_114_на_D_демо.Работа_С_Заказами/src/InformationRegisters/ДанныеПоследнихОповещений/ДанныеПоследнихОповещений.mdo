@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="8be2c870-9d60-41b4-95d6-54a9bc11f30e">
+  <producedTypes>
+    <selectionType typeId="765e470e-9703-4de6-8d05-9b21a985a76c" valueTypeId="4682722d-a7cc-4276-bac8-0ac6b064cb83"/>
+    <listType typeId="29270c78-5ad5-41aa-a9b1-5e64fb322358" valueTypeId="45114e17-3fe9-4760-848d-e232bba09cc9"/>
+    <managerType typeId="0f92cce1-f64a-4d09-a85b-79b17ca4e4a7" valueTypeId="4730c76f-2376-4998-877d-171423020d92"/>
+    <recordSetType typeId="87046f7c-72fe-4a33-9ee8-c4e6a6b5cd60" valueTypeId="cdd01736-a297-48a9-8b62-ec063249629c"/>
+    <recordKeyType typeId="bd2a1cef-43f2-4d0c-9262-02824ba4bc49" valueTypeId="5e41759e-95ff-4ff0-be01-92b0dda7ccea"/>
+    <recordType typeId="2ac39d35-4329-43d4-9862-7b91137a203d" valueTypeId="bf74cc51-65bb-4f5d-a268-c34522fdf1e4"/>
+    <recordManagerType typeId="359284f8-0f9a-428e-a3e2-ffb91cc3acd3" valueTypeId="2a388298-2e32-4ba0-8704-a0c08a6e647c"/>
+  </producedTypes>
+  <name>ДанныеПоследнихОповещений</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:InformationRegisterExtension">
+    <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
+    <writeMode>Checked</writeMode>
+    <defaultRecordForm>Extended</defaultRecordForm>
+    <defaultListForm>Extended</defaultListForm>
+  </extension>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultRecordForm>InformationRegister.ДанныеПоследнихОповещений.Form.Работа_С_Заказами_ФормаЗаписи</defaultRecordForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="0fc4d9b1-5364-4e36-8945-a57cd38079a9">
+    <name>ДанныеПоследнегоОповещения</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </resources>
+  <dimensions uuid="633bd07d-d685-4d98-84ef-148ec869fe18">
+    <name>ВидОповещения</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>CatalogRef.ВидыОповещенийКлиентам</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="8534a93d-0e2a-4f12-ae10-a491001a74c0">
+    <name>ИсточникОповещения</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>AnyRef</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="2af69d86-4ad2-4a32-8e12-a25d85302cba">
+    <name>Подписчик</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>CatalogRef.Партнеры</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="82cf9fdf-46a1-411d-9915-1c5e0626f990">
+    <name>Работа_С_Заказами_ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Работа с заказами форма записи</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

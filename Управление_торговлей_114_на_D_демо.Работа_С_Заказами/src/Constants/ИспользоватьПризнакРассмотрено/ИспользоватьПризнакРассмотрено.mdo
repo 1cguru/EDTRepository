@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="876fd031-2b18-41b6-ab86-ac26b1bb16b7">
+  <producedTypes>
+    <managerType typeId="b5fd9e3d-7cc8-4a81-b719-b8c7a4116872" valueTypeId="bb9203fc-7b83-4118-94cc-87212d49d0b4"/>
+    <valueManagerType typeId="08ce3f88-a903-43b4-93b6-0994e8cd2ad5" valueTypeId="ad1444dc-0026-4f8d-8ea5-16ef717f827f"/>
+  </producedTypes>
+  <name>ИспользоватьПризнакРассмотрено</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <type>Checked</type>
+  </extension>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="ccb91876-201b-4c67-bc7b-00fe67af53d2">
+  <producedTypes>
+    <refType typeId="13370b80-f7cc-4aa5-ac5b-86f8c1f018a8" valueTypeId="9ce09b28-6286-48ad-9cbc-7da95de69fcb"/>
+    <listType typeId="8bdbed3e-ebe6-40c9-b15a-db34deaf139c" valueTypeId="f267ee42-724e-4487-b61d-27b9a899a2f8"/>
+    <managerType typeId="cbae4a93-b322-410b-9c1c-cedabe50fa7d" valueTypeId="ffd97d6a-817b-4a48-938f-ddebac419d33"/>
+  </producedTypes>
+  <name>СтатусыИсходящегоЭлектронногоПисьма</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Enum>

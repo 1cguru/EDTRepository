@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="1f8852d9-078a-4440-8e61-18db48e17569">
+  <producedTypes>
+    <managerType typeId="d535ef88-4d73-414e-a8a8-f5c113604ff2" valueTypeId="05c31ebb-7985-4792-8bb7-8872470017a2"/>
+    <valueManagerType typeId="e4e0b6b1-7405-4e65-978d-fcaea54b14b5" valueTypeId="fd9f7a5d-0546-4b6e-b1b9-c91911d49aa1"/>
+  </producedTypes>
+  <name>ИспользоватьПострочнуюОтгрузкуВЗаказеКлиента</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <type>Checked</type>
+  </extension>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

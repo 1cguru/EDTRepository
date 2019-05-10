@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="992f0a22-9e5f-4c37-b363-e3f1ad54329c">
+  <producedTypes>
+    <refType typeId="ce1ccd8d-ffcd-49a6-8097-c8ecbf9f267b" valueTypeId="13af2713-a400-4904-970a-e637cbed0343"/>
+    <listType typeId="070890c2-cb43-4c73-baee-abe5b589fe3f" valueTypeId="ba8a8f6d-fa72-4d40-b5b3-588f1ce0ec79"/>
+    <managerType typeId="878161a6-6f45-48d7-9ae3-1ef62b7f792c" valueTypeId="f98dc929-c940-4884-9c30-120832210b86"/>
+  </producedTypes>
+  <name>ТипыСобытийОповещений</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="8832f0e9-4ea7-4c2f-9d58-40a343b13c3e">
+    <name>ПоступлениеОплатыОтКлиента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="65415a80-5c4c-4bf2-a761-41e8118f4289">
+    <name>ИзменениеСостоянияЗаказа</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="8a405b45-3437-486b-934a-077fab95f3b6">
+    <name>ПросроченнаяЗадолженность</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="41399360-53c2-461a-99cf-2eb7926c8fac">
+    <name>ПлановыеОтгрузки</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

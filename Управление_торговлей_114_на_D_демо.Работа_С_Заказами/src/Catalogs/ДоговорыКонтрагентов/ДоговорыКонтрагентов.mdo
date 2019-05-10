@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="8601c319-59b5-4235-8fbc-078895a2333b">
+  <producedTypes>
+    <objectType typeId="5f85150a-1034-492c-9102-ab8604095bcb" valueTypeId="4ecdb1ad-eea8-456b-be20-c070af53ffa3"/>
+    <refType typeId="7dec1e57-906c-4e15-969b-10e8b5ce32b5" valueTypeId="cc53f069-ee08-4d13-877b-2f5158372419"/>
+    <selectionType typeId="1a89381a-67cf-4361-8ffa-6bfc929ca870" valueTypeId="ca54517a-420b-4f61-bddb-d5f362225381"/>
+    <listType typeId="6b82e2bb-10ee-4eeb-a114-135bd37196ff" valueTypeId="c0567b74-191a-4dfb-8e79-67036de84d51"/>
+    <managerType typeId="4877fb79-e0b7-40ad-85b7-762f744fa87a" valueTypeId="e9a2a4b1-a6a4-4ca0-8362-64022852f5b4"/>
+  </producedTypes>
+  <name>ДоговорыКонтрагентов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+  <useStandardCommands>true</useStandardCommands>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

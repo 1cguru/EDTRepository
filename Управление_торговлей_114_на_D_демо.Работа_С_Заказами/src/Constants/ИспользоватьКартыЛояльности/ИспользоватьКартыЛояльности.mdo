@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="0fee9aa4-e465-4b90-9e44-7b94ac1a1646">
+  <producedTypes>
+    <managerType typeId="d77090ca-9b9a-4911-9d6e-3a80813c0914" valueTypeId="54021b30-3be5-4753-a373-edcd0800e677"/>
+    <valueManagerType typeId="1f1ce796-ceaf-4e6c-9d13-217113719182" valueTypeId="bfd36b62-697c-4423-98a6-d68f41cb8d93"/>
+  </producedTypes>
+  <name>ИспользоватьКартыЛояльности</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <type>Checked</type>
+  </extension>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

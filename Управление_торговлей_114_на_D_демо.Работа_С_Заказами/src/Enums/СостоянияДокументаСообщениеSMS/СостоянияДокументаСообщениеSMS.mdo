@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="fc2dc893-2c97-4f12-a6c4-c10dfdf622cc">
+  <producedTypes>
+    <refType typeId="bfcf91bd-82e9-4d79-a2fb-8b7efb681c2e" valueTypeId="294081c5-83c2-4281-9c83-c35854a34f66"/>
+    <listType typeId="7561fb26-5b9b-4c90-9f6c-3f38a909848c" valueTypeId="961d73f9-3f0d-423d-80fd-3b0a1c1b1dbb"/>
+    <managerType typeId="9d4eb094-5933-40f6-974a-9b9da602ad0f" valueTypeId="58147aac-27e1-4742-bbf3-a91a278c2ddd"/>
+  </producedTypes>
+  <name>СостоянияДокументаСообщениеSMS</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Enum>

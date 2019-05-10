@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="249e44bf-9dc9-459a-96ab-b4d4724f0000">
+  <producedTypes>
+    <refType typeId="ec365d95-fc38-4a34-bdf7-63062e41bce2" valueTypeId="1038b35b-8e4e-4142-9640-37844802e1ea"/>
+    <listType typeId="657c9ec8-7c86-4ee8-8531-19e6dbda0ef7" valueTypeId="1c56057a-1dcb-4c93-81f1-35ca5c041551"/>
+    <managerType typeId="03e46c91-c629-4dfe-9cad-734955c9aa34" valueTypeId="47276959-d543-4c4a-b23b-3bef7fd92f70"/>
+  </producedTypes>
+  <name>СпособыРедактированияЭлектронныхПисем</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Enum>

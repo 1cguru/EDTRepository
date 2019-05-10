@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="8a62699a-4b9e-4666-a3ff-7a4f5c427543">
+  <producedTypes>
+    <objectType typeId="752c0c75-3bec-4ba0-b3a0-3fcd1ac74b04" valueTypeId="472ffbd2-b2d1-4575-988d-4233ea853d5e"/>
+    <refType typeId="c4eb92f0-7829-45a5-a698-4de32c6ff183" valueTypeId="0c8d1521-0446-4d1c-9100-2420f387e6c2"/>
+    <selectionType typeId="56695f60-7725-4061-9ecb-38a91c3b6cac" valueTypeId="c1d3ecdf-c320-4d33-a908-1bc12502bf90"/>
+    <listType typeId="67a3e7bf-140c-4ce2-bc08-a92a0ff8b09d" valueTypeId="b9436b60-9962-468d-aa7a-d04986ab006d"/>
+    <managerType typeId="661aa832-3cb3-4dc3-a633-66c0e78b2d14" valueTypeId="f0e114a9-1dd9-4c24-b91c-34625736a5ad"/>
+  </producedTypes>
+  <name>УчетныеЗаписиЭлектроннойПочты</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+  <useStandardCommands>true</useStandardCommands>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

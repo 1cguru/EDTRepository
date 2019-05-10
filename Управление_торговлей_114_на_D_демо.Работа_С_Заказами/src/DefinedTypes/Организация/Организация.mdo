@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="bb4b3b19-2339-4cdc-8d83-b24a16db85c2">
+  <producedTypes>
+    <containerType typeId="5074f4d0-cbf2-436f-8db5-d86c0eb7849b" valueTypeId="ace48910-95dc-410e-bbb0-0cfa13c627de"/>
+  </producedTypes>
+  <name>Организация</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DefinedTypeExtension"/>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>10</length>
+    </stringQualifiers>
+  </type>
+</mdclass:DefinedType>

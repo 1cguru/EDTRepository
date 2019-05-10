@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="999e0b20-ed49-49e5-b021-a8f2c26e15af">
+  <producedTypes>
+    <refType typeId="fc86fff1-e9e5-42f3-b2b4-7f97351a6713" valueTypeId="fe9ac737-4bd9-4f6a-9cc0-d164b1b19ff0"/>
+    <listType typeId="fd329cbf-72f5-49f1-b48e-9a418cb10008" valueTypeId="5431fa54-1964-40e4-8647-39d2996b9811"/>
+    <managerType typeId="c9753b3a-f6ea-43b2-a36e-b5cf83d878ce" valueTypeId="e30c5a4b-c92b-4f47-853b-802d2a7a200d"/>
+  </producedTypes>
+  <name>ТипыКонтактнойИнформации</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="b270e21f-564f-4a19-963c-58e7f322e7e1">
+    <name>Адрес</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="97f17444-3196-4858-8882-e98d2d4edfd4">
+    <name>Телефон</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="87a4e5d4-20fb-47c2-8c6d-7597c5303b88">
+    <name>АдресЭлектроннойПочты</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="e7dab40c-a6b2-4db8-875c-478dc4e57c42">
+    <name>Skype</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="09cb2f7f-a804-41d0-b756-239b597595b3">
+    <name>ВебСтраница</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="1b67a6a4-3b50-4f5f-b998-149a107a32cd">
+    <name>Факс</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="a0e8c032-71d6-474b-8260-fb7c547440f6">
+    <name>Другое</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

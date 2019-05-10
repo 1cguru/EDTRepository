@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="60165b75-3eda-455d-a851-858812dce3bb">
+  <producedTypes>
+    <managerType typeId="fd5ae43f-707f-481b-b102-b525e4be6625" valueTypeId="c7c4ac6c-d63e-435b-b2f8-f07fb5701189"/>
+    <valueManagerType typeId="5bc685f7-f114-4b19-a9f8-4a93f05ad0e8" valueTypeId="c3f28d94-1017-4a1d-8a56-cb3e9ac85783"/>
+  </producedTypes>
+  <name>ИспользоватьНаборы</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <type>Checked</type>
+  </extension>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>
